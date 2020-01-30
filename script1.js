@@ -8,4 +8,13 @@
 // ##
 // #
 
-if()
+let i = 1
+while(i <= 4) {
+    console.log(i);
+    i++
+}
+let i = 3
+while(i <= 1) {
+    console.log(i);
+    i++
+}
