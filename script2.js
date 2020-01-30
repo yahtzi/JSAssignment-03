@@ -9,3 +9,12 @@
 // 14
 // FizzBuzz
 // ...
+for (let i % 3 === 0;) {
+    console.log("Fizz");
+}
+else if(let i % 5 === 0;) {
+    console.log("Buzz");
+}
+else if(let i % 3 && 5 === 0;) {
+    console.log("FizzBuzz");
+}
