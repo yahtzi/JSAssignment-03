@@ -8,13 +8,14 @@
 // ##
 // #
 
-let i = 1
-while(i <= 4) {
-    console.log(i);
-    i++
+let hash = '';
+
+for (let i = 1; let i <= 4; i++) {
+    
 }
-let i = 3
-while(i <= 1) {
-    console.log(i);
-    i++
+
+for (let y = 3; y >= 1; i--) {
+    hash = '';
+    for (let y = 1; y <= i;)
+    hash = '#';
 }
