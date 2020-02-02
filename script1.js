@@ -8,14 +8,17 @@
 // ##
 // #
 
-let hash = '';
+let hash ="";
 
-for (let i = 1; let i <= 4; i++) {
-    
+for (let i = 1; i <= 4; i++) {
+    hash += "#";
+    console.log(hash); 
 }
 
-for (let y = 3; y >= 1; i--) {
-    hash = '';
-    for (let y = 1; y <= i;)
-    hash = '#';
+for (let i = 3; i >= 1; i--) {
+    hash ="";
+    for (let y = 1; y <= i; y++) {
+        hash += "#";
+    }
+    console.log(hash);
 }
